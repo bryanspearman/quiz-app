@@ -55,7 +55,8 @@ legend {
   border-top-left-radius: 5px;
 }
 label:nth-child(2) {
-  background-color: #8e8876;
+  background-color: #706b5d;
+  /*8e8876*/
 }
 label:nth-child(3) {
   background-color: #686456;
