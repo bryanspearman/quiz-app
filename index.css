@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+header {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffff88;
+  text-transform: uppercase;
+}
+main div {
+  margin: 0 auto;
+}
+h1 {
+  font-family: 'Racing Sans One', cursive;
+}
+.quizArea {
+  padding: 30px 30px 150px 30px;
+  max-width: 800px;
+  text-align: center;
+}
+.quizArea h2 {
+  font-size: 2.5rem;
+  padding: 10px 0 30px 0;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+}
+.quizArea p {
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+}
+.quizStart h3 {
+  font-size: 1.5rem;
+}
+.underline {
+  text-decoration: underline;
+}
+legend {
+  background-color: #ffffff88;
+  color: #555;
+  padding: 5px 10px;
+  position: relative;
+  top: -14px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+label:nth-child(2) {
+  background-color: #8e8876;
+}
+label:nth-child(3) {
+  background-color: #686456;
+}
+label:nth-child(4) {
+  background-color: #565243;
+}
+label:nth-child(5) {
+  background-color: #514c3b;
+}
+label {
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  line-height: 22px
+}
+label:hover, label:focus {
+    background-color: #333;
+}
+fieldset {
+  border: none;
+  background-color: #ffffff88;
+  padding: 10px 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 5px;
+  text-align: left;
+}
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ffffff;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+}
+input:checked {
+  border: 8px solid green;
+}
+input[type=radio] {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+button {
+  padding: 20px;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  background-color: #efcc07;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 20px auto;
+}
+button:hover {
+  background-color: #333;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #efcc07;
+}
+.quizStart {
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+
+/*Large Screens*/
+@media only screen  and (max-width : 3500px) {
+body {
+  background-image: url('https://www.motorrad-bilder.at/slideshows/234029/009399/sittendorf49.jpg');
+  transition: all 1.0s ease;
+}
+header h1 {
+  font-size: 2.5rem;
+}
+header h2 {
+  color: #514f47;
+  text-transform: none;
+  font-size: 1.8rem;
+}
+.scoreArea {
+  background-color: #ffffff88;
+  position: relative;
+  max-width: 35%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+header ul {
+  margin: 20px 0;
+
+}
+header ul li {
+  list-style: none;
+  display: inline;
+  padding: 10px 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+}
+
+/*Tablets and medium screens*/
+@media screen and (max-width: 1024px) {
+body {
+  background-image: url('https://www.motorrad-bilder.at/slideshows/234029/009399/sittendorf49.jpg');
+  background-position-x: -600px;
+  transition: all 1.0s ease;
+}
+.scoreArea {
+  background-color: #ffffff88;
+  position: relative;
+  max-width: 60%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+header ul {
+  margin: 20px 0;
+
+}
+header ul li {
+  list-style: none;
+  display: inline;
+  padding: 10px 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+}
+
+/*Phones*/
+@media screen and (max-width: 480px) {
+body {
+  background-image: url('https://www.motorrad-bilder.at/slideshows/234029/009399/sittendorf49.jpg');
+  background-position-x: -800px;
+  transition: all 1.0s ease;
+}
+header h1 {
+  font-size: 1.9rem;
+}
+header h2 {
+  color: #514f47;
+  text-transform: none;
+  font-size: 1.4rem;
+}
+.scoreArea {
+  background-color: #ffffff88;
+  position: relative;
+  min-width: 90%;
+  margin: 5px auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+header ul {
+  margin: 10px 0;
+
+}
+header ul li {
+  list-style: none;
+  display: inline;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.quizArea h2 {
+  font-size: 1.5rem;
+  padding: 10px 0 30px 0;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+}
+}
