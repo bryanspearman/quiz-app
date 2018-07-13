@@ -8,11 +8,11 @@ I wanted to create a simple quiz application and I chose motocross as my subject
 ## Screenshots:
 Landing Page (Large Screens)
 
-<img src="https://github.com/bryanspearman/quiz-app/blob/master/screens/lrg-screens.png"/>
+<img src=""/>
 
 Landing Page (Small Screens)
 
-<img src="https://github.com/bryanspearman/quiz-app/blob/master/screens/sm-screens.png"/>
+<img src=""/>
 
 ## Built With
 - HTML5
