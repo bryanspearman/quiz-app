@@ -12,7 +12,7 @@ Landing Page (Large Screens)
 
 Landing Page (Small Screens)
 
-<img src=""/>
+<img src="https://github.com/bryanspearman/quiz-app/blob/master/screens/sml-screen.png"/>
 
 ## Built With
 - HTML5
